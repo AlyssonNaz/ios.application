@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "Entrar"; ObjectID = "5QH-DK-VHm"; */
+"5QH-DK-VHm.normalTitle" = "Entrar";
+
+/* Class = "UILabel"; text = "Olá! Só precisamos de algumas informações sua :)"; ObjectID = "ASg-DY-Srr"; */
+"ASg-DY-Srr.text" = "Olá! Só precisamos de algumas informações sua :)";
+
+/* Class = "UITextField"; placeholder = "Senha"; ObjectID = "EKb-6z-ucL"; */
+"EKb-6z-ucL.placeholder" = "Senha";
+
+/* Class = "UITextField"; placeholder = "Confirme a Senha"; ObjectID = "Goc-Ta-ZlZ"; */
+"Goc-Ta-ZlZ.placeholder" = "Confirme a Senha";
+
+/* Class = "UITextField"; placeholder = "Nome"; ObjectID = "Vfh-PM-MXT"; */
+"Vfh-PM-MXT.placeholder" = "Nome";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "dTY-hI-kHL"; */
+"dTY-hI-kHL.text" = "Description";
+
+/* Class = "UIButton"; normalTitle = "Registrar"; ObjectID = "h9q-Tz-RYE"; */
+"h9q-Tz-RYE.normalTitle" = "Registrar";
+
+/* Class = "UITextField"; placeholder = "Senha"; ObjectID = "i2C-O5-e5e"; */
+"i2C-O5-e5e.placeholder" = "Senha";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pBu-3B-xzi"; */
+"pBu-3B-xzi.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Criar Mesa"; ObjectID = "r9d-H8-DwG"; */
+"r9d-H8-DwG.normalTitle" = "Criar Mesa";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "rw8-dY-T2q"; */
+"rw8-dY-T2q.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Começar"; ObjectID = "tCK-xO-Fld"; */
+"tCK-xO-Fld.normalTitle" = "Começar";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "tks-A5-6n8"; */
+"tks-A5-6n8.placeholder" = "E-mail";

@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1259EC071DDDF58B0090D7A7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259EC061DDDF58B0090D7A7 /* Utils.swift */; };
+		12874EC31DD7F710007F9BD9 /* UITextEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12874EC21DD7F710007F9BD9 /* UITextEdit.swift */; };
+		12874EC71DD90BE7007F9BD9 /* UIButtonEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12874EC61DD90BE7007F9BD9 /* UIButtonEdit.swift */; };
+		7609B98D1C07A5E7006B5906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7609B98C1C07A5E7006B5906 /* AppDelegate.swift */; };
+		7609B98F1C07A5E7006B5906 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7609B98E1C07A5E7006B5906 /* LoginViewController.swift */; };
+		7609B9921C07A5E7006B5906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7609B9901C07A5E7006B5906 /* Main.storyboard */; };
+		7609B9941C07A5E7006B5906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7609B9931C07A5E7006B5906 /* Assets.xcassets */; };
+		7609B9971C07A5E7006B5906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7609B9951C07A5E7006B5906 /* LaunchScreen.storyboard */; };
+		761920A21DB6706A00191B8D /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 761920951DB6706900191B8D /* Ubuntu-B.ttf */; };
+		761920A31DB6706A00191B8D /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 761920961DB6706900191B8D /* Ubuntu-BI.ttf */; };
+		761920A41DB6706A00191B8D /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 761920971DB6706900191B8D /* Ubuntu-C.ttf */; };
+		761920A51DB6706A00191B8D /* Ubuntu-L.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 761920981DB6706900191B8D /* Ubuntu-L.ttf */; };
+		761920A61DB6706A00191B8D /* Ubuntu-LI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 761920991DB6706900191B8D /* Ubuntu-LI.ttf */; };
+		761920A71DB6706A00191B8D /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7619209A1DB6706900191B8D /* Ubuntu-M.ttf */; };
+		761920A81DB6706A00191B8D /* Ubuntu-MI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7619209B1DB6706900191B8D /* Ubuntu-MI.ttf */; };
+		761920A91DB6706A00191B8D /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7619209C1DB6706900191B8D /* Ubuntu-R.ttf */; };
+		761920AA1DB6706A00191B8D /* Ubuntu-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7619209D1DB6706900191B8D /* Ubuntu-RI.ttf */; };
+		761920AB1DB6706A00191B8D /* UbuntuMono-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7619209E1DB6706900191B8D /* UbuntuMono-B.ttf */; };
+		761920AC1DB6706A00191B8D /* UbuntuMono-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7619209F1DB6706900191B8D /* UbuntuMono-BI.ttf */; };
+		761920AD1DB6706A00191B8D /* UbuntuMono-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 761920A01DB6706900191B8D /* UbuntuMono-R.ttf */; };
+		761920AE1DB6706A00191B8D /* UbuntuMono-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 761920A11DB6706900191B8D /* UbuntuMono-RI.ttf */; };
+		7638255F1CA37080005C2CB8 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638255E1CA3707D005C2CB8 /* Protocol.swift */; };
+		763825621CA3743F005C2CB8 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763825611CA3743F005C2CB8 /* Auth.swift */; };
+		763825641CA37481005C2CB8 /* ApiBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763825631CA37481005C2CB8 /* ApiBase.swift */; };
+		763825681CA736E2005C2CB8 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763825671CA736E1005C2CB8 /* BaseUIViewController.swift */; };
+		7638256B1CA9EC3E005C2CB8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638256A1CA9EC3E005C2CB8 /* User.swift */; };
+		7638256D1CA9EC84005C2CB8 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638256C1CA9EC84005C2CB8 /* Entity.swift */; };
+		764A737D1C0F9F9D007F1048 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764A737C1C0F9F9D007F1048 /* SettingsManager.swift */; };
+		766336CF1DB3B5E200419648 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766336CA1DB39CA200419648 /* CryptoSwift.framework */; };
+		766336D01DB3B5E800419648 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 766336CA1DB39CA200419648 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		766336D71DB3B7DB00419648 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766336D41DB3B7DB00419648 /* FBSDKCoreKit.framework */; };
+		766336D81DB3B7DB00419648 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766336D51DB3B7DB00419648 /* FBSDKLoginKit.framework */; };
+		766336D91DB3B7DB00419648 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766336D61DB3B7DB00419648 /* FBSDKShareKit.framework */; };
+		7688A10A1CCC16D5001A4F22 /* RoulettMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688A1091CCC16D4001A4F22 /* RoulettMenuView.swift */; };
+		7688A10E1CCDAD6D001A4F22 /* ItemMenuListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688A10D1CCDAD6D001A4F22 /* ItemMenuListTableCell.swift */; };
+		768AD9821CB20C8E0023AD3C /* CryptoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768AD9811CB20C8E0023AD3C /* CryptoData.swift */; };
+		768CC7B11C8252AA000FA3F8 /* FirstUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CC7B01C8252AA000FA3F8 /* FirstUseViewController.swift */; };
+		768CC7B41C949790000FA3F8 /* EndScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CC7B31C949790000FA3F8 /* EndScreenViewController.swift */; };
+		768CC7B71C95EA90000FA3F8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CC7B61C95EA90000FA3F8 /* MenuViewController.swift */; };
+		768CC7BD1C97ADEF000FA3F8 /* AdsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CC7BC1C97ADEF000FA3F8 /* AdsMenuView.swift */; };
+		76AD0EFF1DB7FDC700FC15BD /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AD0EFE1DB7FDC700FC15BD /* LaunchScreenController.swift */; };
+		76D72A041C3AA98300A9B240 /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D72A031C3AA98300A9B240 /* MainScreenController.swift */; };
+		76EC3FDC1DBAF7110088D82E /* UINavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EC3FDB1DBAF7110088D82E /* UINavView.xib */; };
+		76EC3FDE1DBAF91E0088D82E /* UINavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC3FDD1DBAF91E0088D82E /* UINavView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		766336C91DB39CA200419648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 766336C41DB39CA200419648 /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE45519693E190098E6F3;
+			remoteInfo = CryptoSwift;
+		};
+		766336CB1DB39CA200419648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 766336C41DB39CA200419648 /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE46019693E190098E6F3;
+			remoteInfo = Tests;
+		};
+		766336CD1DB3B5CD00419648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 766336C41DB39CA200419648 /* CryptoSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 754BE45419693E190098E6F3;
+			remoteInfo = CryptoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		764A737A1C0E617E007F1048 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				766336D01DB3B5E800419648 /* CryptoSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1259EC061DDDF58B0090D7A7 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		12874EC21DD7F710007F9BD9 /* UITextEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextEdit.swift; sourceTree = "<group>"; };
+		12874EC61DD90BE7007F9BD9 /* UIButtonEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonEdit.swift; sourceTree = "<group>"; };
+		7609B9891C07A5E7006B5906 /* 2Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2Bar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7609B98C1C07A5E7006B5906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7609B98E1C07A5E7006B5906 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7609B9911C07A5E7006B5906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7609B9931C07A5E7006B5906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7609B9961C07A5E7006B5906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7609B9981C07A5E7006B5906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = settings/Info.plist; sourceTree = "<group>"; };
+		761920951DB6706900191B8D /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		761920961DB6706900191B8D /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BI.ttf"; sourceTree = "<group>"; };
+		761920971DB6706900191B8D /* Ubuntu-C.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-C.ttf"; sourceTree = "<group>"; };
+		761920981DB6706900191B8D /* Ubuntu-L.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-L.ttf"; sourceTree = "<group>"; };
+		761920991DB6706900191B8D /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LI.ttf"; sourceTree = "<group>"; };
+		7619209A1DB6706900191B8D /* Ubuntu-M.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		7619209B1DB6706900191B8D /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MI.ttf"; sourceTree = "<group>"; };
+		7619209C1DB6706900191B8D /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		7619209D1DB6706900191B8D /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-RI.ttf"; sourceTree = "<group>"; };
+		7619209E1DB6706900191B8D /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-B.ttf"; sourceTree = "<group>"; };
+		7619209F1DB6706900191B8D /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
+		761920A01DB6706900191B8D /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-R.ttf"; sourceTree = "<group>"; };
+		761920A11DB6706900191B8D /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
+		7638255E1CA3707D005C2CB8 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		763825611CA3743F005C2CB8 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		763825631CA37481005C2CB8 /* ApiBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiBase.swift; sourceTree = "<group>"; };
+		763825671CA736E1005C2CB8 /* BaseUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
+		7638256A1CA9EC3E005C2CB8 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = core/model/User.swift; sourceTree = "<group>"; };
+		7638256C1CA9EC84005C2CB8 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Entity.swift; path = core/model/Entity.swift; sourceTree = "<group>"; };
+		764A737C1C0F9F9D007F1048 /* SettingsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		766336C41DB39CA200419648 /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = CryptoSwift/CryptoSwift.xcodeproj; sourceTree = "<group>"; };
+		766336D41DB3B7DB00419648 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		766336D51DB3B7DB00419648 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		766336D61DB3B7DB00419648 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		7688A1091CCC16D4001A4F22 /* RoulettMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoulettMenuView.swift; sourceTree = "<group>"; };
+		7688A10D1CCDAD6D001A4F22 /* ItemMenuListTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemMenuListTableCell.swift; sourceTree = "<group>"; };
+		768AD9811CB20C8E0023AD3C /* CryptoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CryptoData.swift; path = core/CryptoData.swift; sourceTree = "<group>"; };
+		768CC7B01C8252AA000FA3F8 /* FirstUseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstUseViewController.swift; sourceTree = "<group>"; };
+		768CC7B31C949790000FA3F8 /* EndScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndScreenViewController.swift; sourceTree = "<group>"; };
+		768CC7B61C95EA90000FA3F8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		768CC7BC1C97ADEF000FA3F8 /* AdsMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsMenuView.swift; sourceTree = "<group>"; };
+		76AD0EFE1DB7FDC700FC15BD /* LaunchScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
+		76D72A031C3AA98300A9B240 /* MainScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
+		76EC3FDB1DBAF7110088D82E /* UINavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UINavView.xib; sourceTree = "<group>"; };
+		76EC3FDD1DBAF91E0088D82E /* UINavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7609B9861C07A5E7006B5906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766336D91DB3B7DB00419648 /* FBSDKShareKit.framework in Frameworks */,
+				766336CF1DB3B5E200419648 /* CryptoSwift.framework in Frameworks */,
+				766336D71DB3B7DB00419648 /* FBSDKCoreKit.framework in Frameworks */,
+				766336D81DB3B7DB00419648 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12874EC01DD7F659007F9BD9 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				12874EC21DD7F710007F9BD9 /* UITextEdit.swift */,
+				12874EC61DD90BE7007F9BD9 /* UIButtonEdit.swift */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		7609B9801C07A5E7006B5906 = {
+			isa = PBXGroup;
+			children = (
+				766BA7291C09D30C000F9A08 /* Frameworks */,
+				7609B98B1C07A5E7006B5906 /* 2bar */,
+				7609B98A1C07A5E7006B5906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7609B98A1C07A5E7006B5906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7609B9891C07A5E7006B5906 /* 2Bar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7609B98B1C07A5E7006B5906 /* 2bar */ = {
+			isa = PBXGroup;
+			children = (
+				764A737B1C0F9F78007F1048 /* core */,
+				766BA7381C0A506D000F9A08 /* assests */,
+				766BA7371C0A4F0E000F9A08 /* settings */,
+				766BA7391C0A51D8000F9A08 /* controller */,
+				7609B98C1C07A5E7006B5906 /* AppDelegate.swift */,
+				7609B9901C07A5E7006B5906 /* Main.storyboard */,
+				7609B9951C07A5E7006B5906 /* LaunchScreen.storyboard */,
+			);
+			name = 2bar;
+			path = seugarcom;
+			sourceTree = "<group>";
+		};
+		761920941DB6703600191B8D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				761920951DB6706900191B8D /* Ubuntu-B.ttf */,
+				761920961DB6706900191B8D /* Ubuntu-BI.ttf */,
+				761920971DB6706900191B8D /* Ubuntu-C.ttf */,
+				761920981DB6706900191B8D /* Ubuntu-L.ttf */,
+				761920991DB6706900191B8D /* Ubuntu-LI.ttf */,
+				7619209A1DB6706900191B8D /* Ubuntu-M.ttf */,
+				7619209B1DB6706900191B8D /* Ubuntu-MI.ttf */,
+				7619209C1DB6706900191B8D /* Ubuntu-R.ttf */,
+				7619209D1DB6706900191B8D /* Ubuntu-RI.ttf */,
+				7619209E1DB6706900191B8D /* UbuntuMono-B.ttf */,
+				7619209F1DB6706900191B8D /* UbuntuMono-BI.ttf */,
+				761920A01DB6706900191B8D /* UbuntuMono-R.ttf */,
+				761920A11DB6706900191B8D /* UbuntuMono-RI.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		7638255D1CA37013005C2CB8 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				7638255E1CA3707D005C2CB8 /* Protocol.swift */,
+			);
+			name = http;
+			sourceTree = "<group>";
+		};
+		763825601CA3742C005C2CB8 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				763825611CA3743F005C2CB8 /* Auth.swift */,
+				763825631CA37481005C2CB8 /* ApiBase.swift */,
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
+		763825661CA73696005C2CB8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				763825671CA736E1005C2CB8 /* BaseUIViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		763825691CA9EBB5005C2CB8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7638256A1CA9EC3E005C2CB8 /* User.swift */,
+				7638256C1CA9EC84005C2CB8 /* Entity.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		764A737B1C0F9F78007F1048 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				76AD0F001DB87B9400FC15BD /* control */,
+				763825691CA9EBB5005C2CB8 /* model */,
+				763825661CA73696005C2CB8 /* controller */,
+				763825601CA3742C005C2CB8 /* api */,
+				7638255D1CA37013005C2CB8 /* http */,
+				764A737C1C0F9F9D007F1048 /* SettingsManager.swift */,
+				768AD9811CB20C8E0023AD3C /* CryptoData.swift */,
+				1259EC061DDDF58B0090D7A7 /* Utils.swift */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		766336C51DB39CA200419648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				766336CA1DB39CA200419648 /* CryptoSwift.framework */,
+				766336CC1DB39CA200419648 /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		766548241C0E391D00817F9E /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				766336C41DB39CA200419648 /* CryptoSwift.xcodeproj */,
+			);
+			name = Crypto;
+			sourceTree = "<group>";
+		};
+		766BA7291C09D30C000F9A08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				766548241C0E391D00817F9E /* Crypto */,
+				766BA7301C09D695000F9A08 /* Facebook */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		766BA7301C09D695000F9A08 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				766336D41DB3B7DB00419648 /* FBSDKCoreKit.framework */,
+				766336D51DB3B7DB00419648 /* FBSDKLoginKit.framework */,
+				766336D61DB3B7DB00419648 /* FBSDKShareKit.framework */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		766BA7371C0A4F0E000F9A08 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				7609B9981C07A5E7006B5906 /* Info.plist */,
+			);
+			name = settings;
+			sourceTree = "<group>";
+		};
+		766BA7381C0A506D000F9A08 /* assests */ = {
+			isa = PBXGroup;
+			children = (
+				761920941DB6703600191B8D /* fonts */,
+				7609B9931C07A5E7006B5906 /* Assets.xcassets */,
+			);
+			name = assests;
+			sourceTree = "<group>";
+		};
+		766BA7391C0A51D8000F9A08 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				768CC7B51C95EA21000FA3F8 /* menu */,
+				768CC7B21C949622000FA3F8 /* firstUserViews */,
+				7609B98E1C07A5E7006B5906 /* LoginViewController.swift */,
+				76D72A031C3AA98300A9B240 /* MainScreenController.swift */,
+				768CC7B01C8252AA000FA3F8 /* FirstUseViewController.swift */,
+				76AD0EFE1DB7FDC700FC15BD /* LaunchScreenController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		768CC7B21C949622000FA3F8 /* firstUserViews */ = {
+			isa = PBXGroup;
+			children = (
+				768CC7B31C949790000FA3F8 /* EndScreenViewController.swift */,
+			);
+			name = firstUserViews;
+			sourceTree = "<group>";
+		};
+		768CC7B51C95EA21000FA3F8 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				768CC7B61C95EA90000FA3F8 /* MenuViewController.swift */,
+				768CC7BC1C97ADEF000FA3F8 /* AdsMenuView.swift */,
+				7688A1091CCC16D4001A4F22 /* RoulettMenuView.swift */,
+				7688A10D1CCDAD6D001A4F22 /* ItemMenuListTableCell.swift */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		76AD0F001DB87B9400FC15BD /* control */ = {
+			isa = PBXGroup;
+			children = (
+				12874EC01DD7F659007F9BD9 /* base */,
+				76EC3FDB1DBAF7110088D82E /* UINavView.xib */,
+				76EC3FDD1DBAF91E0088D82E /* UINavView.swift */,
+			);
+			name = control;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7609B9881C07A5E7006B5906 /* 2bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7609B99B1C07A5E7006B5906 /* Build configuration list for PBXNativeTarget "2bar" */;
+			buildPhases = (
+				7609B9851C07A5E7006B5906 /* Sources */,
+				7609B9861C07A5E7006B5906 /* Frameworks */,
+				7609B9871C07A5E7006B5906 /* Resources */,
+				764A737A1C0E617E007F1048 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				766336CE1DB3B5CD00419648 /* PBXTargetDependency */,
+			);
+			name = 2bar;
+			productName = seugarcom;
+			productReference = 7609B9891C07A5E7006B5906 /* 2Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7609B9811C07A5E7006B5906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = rah;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = RAH;
+				TargetAttributes = {
+					7609B9881C07A5E7006B5906 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7TE75TTUKT;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 7609B9841C07A5E7006B5906 /* Build configuration list for PBXProject "2bar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 7609B9801C07A5E7006B5906;
+			productRefGroup = 7609B98A1C07A5E7006B5906 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 766336C51DB39CA200419648 /* Products */;
+					ProjectRef = 766336C41DB39CA200419648 /* CryptoSwift.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7609B9881C07A5E7006B5906 /* 2bar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		766336CA1DB39CA200419648 /* CryptoSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoSwift.framework;
+			remoteRef = 766336C91DB39CA200419648 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		766336CC1DB39CA200419648 /* Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Tests.xctest;
+			remoteRef = 766336CB1DB39CA200419648 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7609B9871C07A5E7006B5906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761920AA1DB6706A00191B8D /* Ubuntu-RI.ttf in Resources */,
+				761920AE1DB6706A00191B8D /* UbuntuMono-RI.ttf in Resources */,
+				761920AC1DB6706A00191B8D /* UbuntuMono-BI.ttf in Resources */,
+				7609B9971C07A5E7006B5906 /* LaunchScreen.storyboard in Resources */,
+				761920A81DB6706A00191B8D /* Ubuntu-MI.ttf in Resources */,
+				761920A31DB6706A00191B8D /* Ubuntu-BI.ttf in Resources */,
+				7609B9941C07A5E7006B5906 /* Assets.xcassets in Resources */,
+				761920AB1DB6706A00191B8D /* UbuntuMono-B.ttf in Resources */,
+				761920A41DB6706A00191B8D /* Ubuntu-C.ttf in Resources */,
+				76EC3FDC1DBAF7110088D82E /* UINavView.xib in Resources */,
+				761920AD1DB6706A00191B8D /* UbuntuMono-R.ttf in Resources */,
+				761920A21DB6706A00191B8D /* Ubuntu-B.ttf in Resources */,
+				761920A51DB6706A00191B8D /* Ubuntu-L.ttf in Resources */,
+				761920A91DB6706A00191B8D /* Ubuntu-R.ttf in Resources */,
+				761920A71DB6706A00191B8D /* Ubuntu-M.ttf in Resources */,
+				761920A61DB6706A00191B8D /* Ubuntu-LI.ttf in Resources */,
+				7609B9921C07A5E7006B5906 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7609B9851C07A5E7006B5906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12874EC31DD7F710007F9BD9 /* UITextEdit.swift in Sources */,
+				7688A10A1CCC16D5001A4F22 /* RoulettMenuView.swift in Sources */,
+				7609B98F1C07A5E7006B5906 /* LoginViewController.swift in Sources */,
+				763825621CA3743F005C2CB8 /* Auth.swift in Sources */,
+				7638256D1CA9EC84005C2CB8 /* Entity.swift in Sources */,
+				763825641CA37481005C2CB8 /* ApiBase.swift in Sources */,
+				7609B98D1C07A5E7006B5906 /* AppDelegate.swift in Sources */,
+				1259EC071DDDF58B0090D7A7 /* Utils.swift in Sources */,
+				768CC7B41C949790000FA3F8 /* EndScreenViewController.swift in Sources */,
+				763825681CA736E2005C2CB8 /* BaseUIViewController.swift in Sources */,
+				768CC7B71C95EA90000FA3F8 /* MenuViewController.swift in Sources */,
+				76D72A041C3AA98300A9B240 /* MainScreenController.swift in Sources */,
+				7638255F1CA37080005C2CB8 /* Protocol.swift in Sources */,
+				768AD9821CB20C8E0023AD3C /* CryptoData.swift in Sources */,
+				76AD0EFF1DB7FDC700FC15BD /* LaunchScreenController.swift in Sources */,
+				76EC3FDE1DBAF91E0088D82E /* UINavView.swift in Sources */,
+				764A737D1C0F9F9D007F1048 /* SettingsManager.swift in Sources */,
+				12874EC71DD90BE7007F9BD9 /* UIButtonEdit.swift in Sources */,
+				768CC7B11C8252AA000FA3F8 /* FirstUseViewController.swift in Sources */,
+				768CC7BD1C97ADEF000FA3F8 /* AdsMenuView.swift in Sources */,
+				7688A10E1CCDAD6D001A4F22 /* ItemMenuListTableCell.swift in Sources */,
+				7638256B1CA9EC3E005C2CB8 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		766336CE1DB3B5CD00419648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoSwift;
+			targetProxy = 766336CD1DB3B5CD00419648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7609B9901C07A5E7006B5906 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7609B9911C07A5E7006B5906 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7609B9951C07A5E7006B5906 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7609B9961C07A5E7006B5906 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7609B9991C07A5E7006B5906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = seugarcom/bridge.header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7609B99A1C07A5E7006B5906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = seugarcom/bridge.header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7609B99C1C07A5E7006B5906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 7TE75TTUKT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Frameworks",
+					/Users/Alysson/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
+				INFOPLIST_FILE = seugarcom/settings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rah.2bar;
+				PRODUCT_NAME = 2Bar;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7609B99D1C07A5E7006B5906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 7TE75TTUKT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Frameworks",
+					/Users/Alysson/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
+				INFOPLIST_FILE = seugarcom/settings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rah.2bar;
+				PRODUCT_NAME = 2Bar;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7609B9841C07A5E7006B5906 /* Build configuration list for PBXProject "2bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7609B9991C07A5E7006B5906 /* Debug */,
+				7609B99A1C07A5E7006B5906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7609B99B1C07A5E7006B5906 /* Build configuration list for PBXNativeTarget "2bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7609B99C1C07A5E7006B5906 /* Debug */,
+				7609B99D1C07A5E7006B5906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7609B9811C07A5E7006B5906 /* Project object */;
+}
